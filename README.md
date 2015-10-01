@@ -1,2 +1,5 @@
 # plyr-site
-Site for Prime Leaders of York Region 
+Website for Prime Leaders of York Region. 
+<br/>
+Designed with Bootstrap with a mailing list made in angularJS. 
+
