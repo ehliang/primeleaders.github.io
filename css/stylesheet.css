@@ -22,12 +22,25 @@ p.small {
 .topelement {
     padding-top: 100px; 
 }
+.item img{
+    height:120px;
+}
 
 #navbar-logo {
 
 padding-top:0;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 
 }
+
+.carousel-inner > .item > .square {
+height:95px;
+
+}
+
 
 .sr-onlylogo{
 position:absolute;
