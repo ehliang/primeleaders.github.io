@@ -40,6 +40,15 @@ clip:rect(0,0,0,0);
 border:0;
 }
 
+.progressfill{
+background-color:#18bc9c;
+height:3px; 
+margin-bottom:2px; 
+    
+    
+}
+
+
 
 a,
 a:hover,
@@ -213,6 +222,24 @@ section.contact{
     margin-top:auto;
 }
 
+section.success #container-fluid{
+     padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+
+section.success #construction{
+    height:100%;
+    
+    
+}
+
+section.success .bottomspace{
+    margin:10%; 
+}
+
+
+
 section.success a,
 section.success a:hover,
 section.success a:focus,
@@ -359,9 +386,7 @@ section.success a.active {
     color: #18bc9c;
 }
 
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
-}
+
 
 footer {
     color: #fff;
