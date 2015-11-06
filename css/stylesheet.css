@@ -19,6 +19,9 @@ p.small {
 .padding-0 {
     padding: 0;
 }
+.topelement {
+    padding-top: 100px; 
+}
 
 #navbar-logo {
 
