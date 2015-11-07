@@ -141,11 +141,19 @@
                             </div>
                         </div>
                         <br>
+
+                        
+                        
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
+                                <input type="checkbox" name="subscribe" value="yes" ng-model="subscribeinput"> Subscribe to our newsletter!</input>
+
+                            
+                        </div>
+                            <div class="form-group col-xs-12">
+                                <button onclick="progress.submitfunc()" type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>  
                         </div>
                     </form>
 
@@ -254,7 +262,7 @@
     
     
     
-     <script>var myDataRef = new Firebase('https://dazzling-heat-2850.firebaseio.com'</script>    
+    
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/mailinglist.js"></script>
     
